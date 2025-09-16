@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Guide | Artisanal Coffee Blends</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Artisanal Coffee</a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="brew-guide.html" class="active">Brew Guide</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Brewing Guide</h1>
+            <p>Master the art of coffee brewing at home</p>
+        </div>
+    </section>
+
+    <!-- Brew Methods Section -->
+    <section class="brew-methods">
+        <div class="container">
+            <h2 class="section-title">Brewing Methods</h2>
+            <div class="methods-tabs">
+                <button class="method-tab active" data-method="pour-over">Pour Over</button>
+                <button class="method-tab" data-method="french-press">French Press</button>
+                <button class="method-tab" data-method="aeropress">AeroPress</button>
+                <button class="method-tab" data-method="espresso">Espresso</button>
+            </div>
+            
+            <div class="method-content active" id="pour-over">
+                <div class="method-detail">
+                    <div class="method-text">
+                        <h3>Pour Over Brewing</h3>
+                        <p>The pour over method allows you to control every aspect of the brewing process, resulting in a clean, flavorful cup that highlights the unique characteristics of the coffee.</p>
+                        <h4>What You'll Need:</h4>
+                        <ul>
+                            <li>Pour over brewer (V60, Chemex, or Kalita Wave)</li>
+                            <li>Paper filters</li>
+                            <li>Gooseneck kettle</li>
+                            <li>Scale</li>
+                            <li>Timer</li>
+                            <li>Freshly ground coffee</li>
+                        </ul>
+                        <h4>Steps:</h4>
+                        <ol>
+                            <li>Boil water to 200°F (93°C)</li>
+                            <li>Place filter in brewer and rinse with hot water</li>
+                            <li>Add 22g of medium-fine ground coffee</li>
+                            <li>Pour 50g of water to bloom, wait 30 seconds</li>
+                            <li>Slowly pour remaining water in circular motions (total water: 360g)</li>
+                            <li>Total brew time should be 2:30-3:00 minutes</li>
+                            <li>Remove filter and enjoy</li>
+                        </ol>
+                    </div>
+                    <div class="method-image">
+                        <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pour over brewing">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="method-content" id="french-press">
+                <div class="method-detail">
+                    <div class="method-text">
+                        <h3>French Press Brewing</h3>
+                        <p>The French press method produces a rich, full-bodied cup with more oils and sediments than other methods, creating a robust flavor profile.</p>
+                        <h4>What You'll Need:</h4>
+                        <ul>
+                            <li>French press</li>
+                            <li>Coarse ground coffee</li>
+                            <li>Hot water</li>
+                            <li>Timer</li>
+                            <li>Scale (optional but recommended)</li>
+                        </ul>
+                        <h4>Steps:</h4>
+                        <ol>
+                            <li>Boil water to 200°F (93°C)</li>
+                            <li>Add 30g of coarse ground coffee to the French press</li>
+                            <li>Pour 500g of water, ensuring all grounds are saturated</li>
+                            <li>Place lid on top with plunger pulled up</li>
+                            <li>Steep for 4 minutes</li>
+                            <li>Slowly press plunger down</li>
+                            <li>Pour immediately to prevent over-extraction</li>
+                        </ol>
+                    </div>
+                    <div class="method-image">
+                        <img src="https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=600" alt="French press brewing">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional method contents would follow the same pattern -->
+        </div>
+    </section>
+
+    <!-- Grind Guide Section -->
+    <section class="grind-guide">
+        <div class="container">
+            <h2 class="section-title">Coffee Grind Guide</h2>
+            <div class="grind-table">
+                <div class="grind-header">
+                    <div class="grind-cell">Brew Method</div>
+                    <div class="grind-cell">Grind Size</div>
+                    <div class="grind-cell">Description</div>
+                </div>
+                <div class="grind-row">
+                    <div class="grind-cell">Espresso</div>
+                    <div class="grind-cell">Extra Fine</div>
+                    <div class="grind-cell">Feels like powder, clumps together</div>
+                </div>
+                <div class="grind-row">
+                    <div class="grind-cell">Pour Over</div>
+                    <div class="grind-cell">Medium-Fine</div>
+                    <div class="grind-cell">Similar to table salt</div>
+                </div>
+                <div class="grind-row">
+                    <div class="grind-cell">AeroPress</div>
+                    <div class="grind-cell">Fine to Medium</div>
+                    <div class="grind-cell">Between table salt and sand</div>
+                </div>
+                <div class="grind-row">
+                    <div class="grind-cell">French Press</div>
+                    <div class="grind-cell">Coarse</div>
+                    <div class="grind-cell">Similar to breadcrumbs</div>
+                </div>
+                <div class="grind-row">
+                    <div class="grind-cell">Cold Brew</div>
+                    <div class="grind-cell">Extra Coarse</div>
+                    <div class="grind-cell">Similar to peppercorns</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Water Ratio Section -->
+    <section class="water-ratio">
+        <div class="container">
+            <h2 class="section-title">Coffee to Water Ratio</h2>
+            <p class="ratio-intro">The right coffee-to-water ratio is essential for a balanced brew. Use this calculator to find the perfect measurements for your preferred brewing method.</p>
+            
+            <div class="ratio-calculator">
+                <div class="calculator-inputs">
+                    <div class="input-group">
+                        <label for="cups">Number of Cups:</label>
+                        <input type="number" id="cups" min="1" max="12" value="2">
+                    </div>
+                    <div class="input-group">
+                        <label for="strength">Strength Preference:</label>
+                        <select id="strength">
+                            <option value="mild">Mild (1:18 ratio)</option>
+                            <option value="medium" selected>Medium (1:16 ratio)</option>
+                            <option value="strong">Strong (1:14 ratio)</option>
+                        </select>
+                    </div>
+                    <button id="calculate" class="btn">Calculate</button>
+                </div>
+                <div class="calculator-results">
+                    <h3>Recommended Measurements:</h3>
+                    <p id="coffee-amount">Coffee: 32g</p>
+                    <p id="water-amount">Water: 512g (about 2.5 cups)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Artisanal Coffee</h3>
+                    <p>Premium coffee blends crafted with passion and expertise.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>123 Coffee Lane, Portland, OR 97205</p>
+                    <p>info@artisanalcoffee.com</p>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Artisanal Coffee Blends. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
