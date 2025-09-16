@@ -66,7 +66,7 @@ const productsData = [
         id: 1,
         name: "Ethiopian Yirgacheffe",
         description: "Bright and fruity with notes of blueberry and citrus",
-        price: 16.99,
+        price: 1700,
         category: "single-origin",
         image: "images/coffee-1.jpg"
     },
@@ -74,7 +74,7 @@ const productsData = [
         id: 2,
         name: "Colombian Supremo",
         description: "Well-balanced with caramel sweetness and nutty undertones",
-        price: 15.99,
+        price: 1550,
         category: "single-origin",
         image: "images/coffee-2.jpg"
     },
@@ -82,7 +82,7 @@ const productsData = [
         id: 3,
         name: "Guatemalan Antigua",
         description: "Rich and complex with chocolate notes and a spicy finish",
-        price: 17.99,
+        price: 1800,
         category: "single-origin",
         image: "images/coffee-3.jpg"
     },
@@ -90,7 +90,7 @@ const productsData = [
         id: 4,
         name: "Morning Blend",
         description: "Smooth and balanced with notes of chocolate and nuts",
-        price: 14.99,
+        price: 1500,
         category: "blends",
         image: "images/coffee-1.jpg"
     },
@@ -98,7 +98,7 @@ const productsData = [
         id: 5,
         name: "Espresso Roast",
         description: "Dark and intense with caramelized sugar notes",
-        price: 16.50,
+        price: 1600,
         category: "blends",
         image: "images/coffee-2.jpg"
     },
@@ -106,7 +106,7 @@ const productsData = [
         id: 6,
         name: "Decaf House Blend",
         description: "Smooth and mellow with chocolate and nut notes",
-        price: 15.99,
+        price: 1650,
         category: "decaf",
         image: "images/coffee-3.jpg"
     }
@@ -128,7 +128,7 @@ function populateProductsPage() {
                     <div class="product-info">
                         <h3>${product.name}</h3>
                         <p>${product.description}</p>
-                        <span class="price">$${product.price.toFixed(2)}</span>
+                        <span class="price">Ksh.${product.price.toFixed(2)}</span>
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
